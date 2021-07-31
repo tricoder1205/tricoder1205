@@ -1,0 +1,376 @@
+
+.imgs{
+	height: 90%;
+	width: 100%;
+}
+.imgs:hover{
+	transform: scale(1.1);
+	border: solid 1px rgb(29, 241, 64);
+}
+a img{
+	height:40px;
+	width: 100px;
+	border: #ffffff;
+}
+.container_slide{
+	width: 100%;
+	padding-top: 115px;
+
+}
+.menu1{
+	height: 30px;
+	width: 90%;
+	margin: auto;
+	background-color: #ededed;
+}
+.font1{
+	color: rgb(248, 4, 4);
+	font-size: 17px;
+}
+footer{
+width: 100%;
+}
+/* CSS cho ADmin */
+/* Menu Cho trang adminimation*/
+.AdminContainer{
+	height: 5000px;
+	width: 250px;
+background-color: rgb(47, 78, 79);
+}
+
+.level1 {
+	text-align: left;
+	font-size: 20px;
+	list-style-type:none;
+	padding-top:5px;
+	position:relative;
+	width: 250px;
+	opacity:1.0;	
+}
+.level1 li{
+	width: auto;
+	height: 70px;
+	font-weight:bold;
+	padding-top: 15px;
+	border-bottom: solid 1px wheat;
+}
+.level1 li a, .level1 li a:visited{
+	color:#ffffff;
+	text-decoration: none;
+}
+.level1 li a:hover{
+	color:rgb(21, 255, 0)
+}
+
+.level2{
+	display:none;
+	position: absolute;
+	padding: 0px;
+	margin-top: 10px;
+}
+.level1 li:hover > .level2{
+	display:block;
+}
+.level2 li {
+	float: none;
+	position: relative;
+	display:block;
+	border: solid 1px;
+	padding: 10px;
+	height:auto;
+	background: rgb(47, 78, 79);
+}
+
+/* Header css */
+
+/*header navigation*/
+
+.header__nav {
+    height: 5.8rem;
+}
+
+.header__nav-list {
+    margin: auto;
+    list-style: none;
+    display: flex;
+    height: 100%;
+}
+
+
+.header__nav-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    padding-right: 3rem;
+    transition: 0.2s;
+}
+
+.header__nav-link:hover{
+    text-decoration: none;
+    color: var(--white-color);
+    opacity: 0.6;
+}
+/**/
+/* end header */
+.imgs__product{
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+
+
+/* Login */
+.header__login{
+		width: 200px;
+		list-style: none;
+		padding-left: 20px;
+		margin-top: 5px;
+		text-decoration: none;
+}
+.header__login-wrap{
+	position: relative;
+	margin: 0 12p;
+	display: inline-block;
+	cursor: pointer;
+}
+.header__login-wrap:hover .header__login-list{
+	display: block;
+}
+.header__login-list{
+	position: absolute;
+	top: calc(100% + 4px);
+	background: var(--white-color);
+	width: 120px;
+	border-radius: 2px;
+	box-shadow: 0 2px 10px rgba(0, 0 , 0, 0.2);
+	display: none;
+	animation: fadeIn ease-in 0.2s;
+	cursor: default;
+	z-index: 2;
+}
+.header__logint-list-item{
+	list-style: none;
+	max-height: 56vh;
+	overflow-y: auto;
+}
+.header__login-item{
+	display: flex;
+	align-items: center;
+}
+.header__login-item:hover{
+	background: #929090;
+}
+.header__login-list ul li a:hover{
+	color: aqua!important;
+}
+.header__login-list::after{
+	content: "";
+	cursor: pointer;
+	position: absolute;
+	display: block;
+	top: -26px;
+	right: 40px;
+	border-width: 16px 20px;
+	border-style: solid;
+	border-color: transparent transparent var(--white-color) transparent;
+}
+/* Thanh Toán */
+.header_pay{
+	height: 80px;
+	background: linear-gradient(0,#b930ff, #59f824 );
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.left {
+    display: inline-block;
+    line-height: 35px;
+    margin: auto;
+    padding: 10px;
+	cursor: pointer;
+}
+.left h1{
+	font-size: 4rem;
+	color:azure;
+}
+.right {
+    float: right;
+	padding: 10px;
+}
+.boder_right{
+	border-right: solid 2px hsla(0, 0%, 100%, 0.856);;
+	z-index: 2;
+	margin-right: 20px;
+}
+.pay_info{
+	padding-top: 80px;
+	min-height: 500px;
+	background-color: rgb(170, 241, 243);
+}
+.user{
+	background-color: hsla(0, 0%, 100%, 0.856);
+	width: 100%;
+	display: inline-block;
+	font-size: 1.5rem;
+	padding: 10px;
+	padding-right: 50%;
+}
+.user .form-control{
+	font-size: 1.5rem!important;
+}
+.user h1{
+	font-size:3rem;
+}
+.oder{
+	height: 300px;
+	background-color: rgb(179, 212, 179);
+	padding: 15px;
+
+}
+.payments{
+	font-size: 1.5rem;
+	display: inline-block;
+	line-height: 50px;
+}
+.payments select{
+	width: 100px;
+}
+.oder_pay{
+	font-size: 2.5rem;
+	text-align: end;
+	margin-right: 40px;
+}
+.cost{
+	text-align: left;
+	font-size: 1.5rem;
+	float: right;
+	margin: 20px;
+}
+.cost span{
+	color: red;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.payments select {
+    width: auto;
+    height: 40px;
+    background-color: mediumturquoise;
+}
+
+/* form regis */
+
+a {
+	color: #ad2424a8;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+	font-weight: 600;
+}
+.form_body{
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(to bottom right , #b400ff, #00ff4e);
+}
+.register {
+	width: 500px;
+	margin: -10px auto;
+	background-color: #e9f1ff;
+	border-radius: 20px;
+	padding: 30px ;
+
+}
+.register h1{
+	text-align: center;
+	font-size: 2.5rem;
+	margin: 0 0 50px 0;
+}
+.header__search > .header__search-input-wrap > input[type=text]{
+	width: 100%;
+	padding: 15px;
+	margin: 0 0 22px 0;
+	display: inline-block;
+	border: none;
+	border-radius: 20px;
+}
+
+input[type=text], input[type=password], input[type=tel]  {
+	width: 95%;
+	display: inline-block;
+	border: none;
+	border-radius: 10px;
+}
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #f3f3f3;
+	outline: none;
+}
+hr {
+	border: 1px solid #999797;
+	margin-bottom: 25px;
+}
+.submit {
+	background: linear-gradient(to bottom right , #b400ff, #00ff4e);
+	color: white;
+	padding: 15px 18px;
+	margin: 8px 0;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.7;
+}
+.submit:hover {
+opacity: 1;
+}
+.login {
+	background-color: #e9f1ff;
+	text-align: center;
+}
+/* body purchase */
+.purchase{
+	padding-top: 115px;
+	padding-bottom: 20px ;
+	min-height: 100px;
+	height: 200px;
+	margin: auto;
+	background-color: #fff;
+}
+.status_re{
+	background-color: #28a745!important;
+    color: #fff!important;
+}
+.status_ex{
+	background-color: #ffc107!important;
+    color: #fff!important;
+}
+.status_cancel{
+	background-color: #ff0707!important;
+    color: #fff!important;
+	min-width: 60px!important;
+}
+.bi-eye{
+	min-width: 30px!important;
+    color: #005ab5!important;
+	font-weight: bold!important;
+}
+.card-body{
+	text-align: center;
+}
+.home-product-h1{
+	padding-top: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.5rem;
+	box-sizing: border-box;
+	border: solid 1px #929090;
+	border-radius: 10px;
+	display: inline-block;
+	width: 300px;
+	padding: 5px;
+	margin: 5px;
+	background-color: #7f9dff;
+	cursor: pointer;
+}

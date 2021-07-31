@@ -1,0 +1,262 @@
+.product {
+	background: #d0d8d5;
+	padding: 3rem 0;
+	padding-top: 120px;
+	font-size: 1.5rem!important;
+	min-height:1000px ;
+}
+
+.product__main-img-primary {
+	margin-bottom: 1.6rem;
+}
+
+.product__main-img-primary img{
+	width: 100%;
+}
+
+.product__main-img-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product__main-img-list img{
+	width: 30%;
+	margin-bottom: 2rem;
+	margin-right: 0.6rem;
+
+} 	
+
+.product__main-img-list img:hover{
+	border: 1px solid #efefef;
+}
+
+.product__main-img-list img:first-child{
+	border: 1px solid #efefef;
+
+}
+.product__main-info-breadcrumb {
+	font-size: 1.5rem;
+	color: rgb(44, 43, 43);
+	font-weight: bold;
+}
+
+.product__main-info-title {
+	margin: 1.4rem 0;
+	text-decoration: none;
+	display: block;
+}
+
+.product__main-info-title:hover{
+	text-decoration: none;
+	color: var(--text-color);
+}
+
+.product__main-info-title:hover .product__main-info-heading{
+	color: var(--black-color);
+}
+
+
+.product__main-info-heading {
+	color: #333;
+	font-weight: 400;
+	font-size: 2.2rem;
+}
+
+
+.product__main-info-price-current {
+	color: var(--primary-color);
+	font-size: 2.4rem;
+	font-weight: 500;
+}
+ 
+.product__main-info-cart {
+	display: flex;
+	align-items: center;
+	margin: 50px 0;
+}
+
+.product__main-info-cart-quantity {
+	font-size: 1.4rem;
+	margin-right: 4rem;
+}
+
+.product__main-info-cart-quantity-minus {
+	width: 2rem;
+	height: 3.5rem;
+	outline: none;
+}
+
+.product__main-info-cart-quantity-total {
+	width: 4rem;
+	height: 3.5rem;
+	margin-left: -0.5rem;
+	outline: none;
+	text-align: center;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number] {
+-moz-appearance: textfield;
+max-width: 70px;
+text-align: center;
+font-size: 1.5rem;
+}
+.select-size{
+	font-size: 1.5rem;
+}
+
+.product__main-info-cart-btn {
+	width: 20rem;
+	height: 5rem;
+	background: #f13c3c;
+	color: var(--white-color);
+	font-weight: bold;
+	border-radius: 0.2rem;
+	outline: none;
+	font-size: 2rem;
+	border: none;
+	cursor: pointer;
+	margin: 0px 50px;
+}
+
+/**/
+
+.product__main-tab{
+	height: 5rem;
+	background: #efefef;
+	margin-top: 4rem;
+	padding: 0;
+}
+
+.product__main-tab-link {
+	font-size: 2rem;
+	font-weight: bold;
+	display: inline-block;
+	padding: 0.8rem 2.6rem;
+	color: var(--text-color);
+}
+
+.product__main-tab-link--active:hover{
+	opacity: 0.9;
+	color: var(--white-color);
+}
+
+.product__main-content-wrap{
+	padding-top: 2rem;
+}	
+
+.product__main-content-heading{
+	font-size: 40px;
+	color: var(--primary-color);
+	text-align: center;
+	margin-bottom: 2.2rem;
+}
+
+.product__main-content-wrap p{
+	padding-top: 10px;
+	font-size: 1em;
+	color: rgb(0, 0, 0);
+	line-height: 2.2rem;
+	word-spacing: 0.1rem;
+	margin-bottom: 2rem;
+}
+
+.product__main-content-wrap h3{
+	font-size: 1.8rem;
+	color: var(--primary-color);
+	text-align: center;
+	margin-top: 3.2rem;
+	margin-bottom: 1.8rem;
+}
+
+.product__main-content-wrap span{
+	color: var(--primary-color);
+	font-size: 1.4rem;
+	font-weight: 500;
+}
+
+
+
+/*aside*/
+
+.product__aside-top-item {
+	display: flex;
+    align-items: center;
+    margin: 2rem 0 4rem;
+}
+
+.product__aside-top-item img {
+	margin-right: 1rem;
+}
+
+.product__aside-top-item-text p {
+	font-size: 1.7rem;
+	color: var(--text-color);
+	margin: 0;
+	font-weight: 500;
+}
+
+.product__aside-top-item-text span {
+ 	font-size: 1.4rem;
+ 	color: var(--text-color);
+}
+
+/*aside bottom*/
+/*post aside*/
+
+.product__aside-list {
+	margin: 1.4rem 0;
+}
+
+.product__aside-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 0;
+    border-bottom: 1px solid #EFEFF1;
+}
+ 
+.product__aside-title {
+	flex: 1;
+}
+ 
+/**/
+
+.product__aside-rate {
+	font-size: 1rem;
+    color: var(--primary-color);
+    margin-bottom: 0.6rem;
+}
+
+
+.product__aside-price-current {
+	font-size: 1.6rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+ 
+.pc{
+	position: relative;
+}
+@media (max-width:992px){
+	.product__aside{
+		display: none;
+	}
+
+}
+
+@media (max-width:768px){
+    .hide-on-mobile{
+        display: none;
+    }
+}
+
+@media (min-width:768px){
+    
+}
