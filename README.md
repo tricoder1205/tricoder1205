@@ -1,5 +1,8 @@
 <h1 align="center">Hi 👋, I'm Mindy Tran</h1>
 <h3 align="center">A passionate fullstack developer from Viet Nam</h3>
+<p align="left">
+  <img style="object-fit: 'cover'" src="https://github.com/tricoder1205/tricoder1205/blob/main/soon.gif" alt="Github followers of tricoder1205" width="100%" height="600" />
+</p>
 
 <p align="left">
   <img src="https://img.shields.io/github/followers/tricoder1205?style=social" alt="Github followers of tricoder1205" />
